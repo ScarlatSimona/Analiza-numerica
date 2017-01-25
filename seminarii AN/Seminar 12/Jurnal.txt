@@ -1,0 +1,22 @@
+>> perturba_motion_noise_MDiscret('LENNAA.bmp',5,20);
+>> perturba_motion_noise_MDiscret('LENNAA.bmp',9,10); 
+>> perturba_motion_noise_MDiscret('LENNAA.bmp',11,5);
+>> perturba_motion_noise_MDiscret('BADSCAN1.bmp',9,15); 
+>> perturba_motion_noise_MDiscret('BADSCAN1.bmp',13,5); 
+
+>> filtrare_Wiener_MDiscret('LENNAA_MD_y_iT_5.bmp','LENNAA.BMP',0.4,5,0.001);
+SNR pentru imaginea perturbata 12.8848
+SNR pentru imaginea filtrata 20.0716
+>> filtrare_Wiener_MDiscret('LENNAA_MD_y_iT_9.bmp','LENNAA.BMP',0.1,9,0.001);
+SNR pentru imaginea perturbata 11.4506
+SNR pentru imaginea filtrata 19.4805
+>> filtrare_Wiener_MDiscret('LENNAA_MD_y_iT_11.bmp','LENNAA.BMP',0.03,11,0.001);
+SNR pentru imaginea perturbata 9.6014
+SNR pentru imaginea filtrata 15.7686
+>> filtrare_Wiener_MDiscret('BADSCAN1_MD_y_iT_9.bmp','BADSCAN1.BMP',0.1,9,0.001);
+SNR pentru imaginea perturbata 14.9414
+SNR pentru imaginea filtrata 19.2596
+>> filtrare_Wiener_MDiscret('BADSCAN1_MD_y_iT_13.bmp','BADSCAN1.BMP',0.02,13,0.0001);
+SNR pentru imaginea perturbata 11.7495
+SNR pentru imaginea filtrata 12.9261
+>> 
